@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net" modified="2024-07-03T10:18:03.536Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="oJrRntLS_e-lXCCqBaWL" version="24.6.4" type="device">
+  <diagram name="第 1 页" id="dcbm__RDPPSyUh-fFv-d">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yz1a30ITdbiulffcxDUu-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yz1a30ITdbiulffcxDUu-1" target="yz1a30ITdbiulffcxDUu-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz1a30ITdbiulffcxDUu-1" value="导入" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yz1a30ITdbiulffcxDUu-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yz1a30ITdbiulffcxDUu-2" target="yz1a30ITdbiulffcxDUu-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz1a30ITdbiulffcxDUu-2" value="读取配置文件路径，解压路径" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz1a30ITdbiulffcxDUu-7" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yz1a30ITdbiulffcxDUu-4" target="yz1a30ITdbiulffcxDUu-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz1a30ITdbiulffcxDUu-9" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yz1a30ITdbiulffcxDUu-4" target="yz1a30ITdbiulffcxDUu-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz1a30ITdbiulffcxDUu-4" value="判断路径是否存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="340" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yz1a30ITdbiulffcxDUu-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yz1a30ITdbiulffcxDUu-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yz1a30ITdbiulffcxDUu-6" value="获取当前模型文件名，获取上传文件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz1a30ITdbiulffcxDUu-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yz1a30ITdbiulffcxDUu-8" target="yz1a30ITdbiulffcxDUu-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz1a30ITdbiulffcxDUu-8" value="创建解压路径及基础路径" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="355" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz1a30ITdbiulffcxDUu-15" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yz1a30ITdbiulffcxDUu-13" target="yz1a30ITdbiulffcxDUu-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz1a30ITdbiulffcxDUu-19" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yz1a30ITdbiulffcxDUu-13" target="yz1a30ITdbiulffcxDUu-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz1a30ITdbiulffcxDUu-13" value="判断上传文件是否正确" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="650" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yz1a30ITdbiulffcxDUu-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yz1a30ITdbiulffcxDUu-14" target="yz1a30ITdbiulffcxDUu-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz1a30ITdbiulffcxDUu-14" value="返回错误信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz1a30ITdbiulffcxDUu-16" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="950" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yz1a30ITdbiulffcxDUu-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yz1a30ITdbiulffcxDUu-18" target="yz1a30ITdbiulffcxDUu-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz1a30ITdbiulffcxDUu-18" value="解压上传文件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz1a30ITdbiulffcxDUu-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yz1a30ITdbiulffcxDUu-20" target="yz1a30ITdbiulffcxDUu-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz1a30ITdbiulffcxDUu-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yz1a30ITdbiulffcxDUu-20" target="yz1a30ITdbiulffcxDUu-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz1a30ITdbiulffcxDUu-20" value="循环读取解压文件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz1a30ITdbiulffcxDUu-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yz1a30ITdbiulffcxDUu-22" target="yz1a30ITdbiulffcxDUu-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz1a30ITdbiulffcxDUu-22" value="将模型文件与当前已存在的模型文件进行对比合并" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz1a30ITdbiulffcxDUu-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yz1a30ITdbiulffcxDUu-24" target="yz1a30ITdbiulffcxDUu-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz1a30ITdbiulffcxDUu-24" value="读取前台数据文件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz1a30ITdbiulffcxDUu-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yz1a30ITdbiulffcxDUu-26" target="yz1a30ITdbiulffcxDUu-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz1a30ITdbiulffcxDUu-26" value="返回结果数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
